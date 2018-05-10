@@ -1,4 +1,8 @@
 ﻿using System;
+using Microsoft.ML.Models;
+using Microsoft.ML.Trainers;
+using Microsoft.ML.Transforms;
+using Microsoft.ML;
 
 namespace TestML03
 {
@@ -6,7 +10,7 @@ namespace TestML03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
