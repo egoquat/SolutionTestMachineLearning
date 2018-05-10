@@ -1,0 +1,8 @@
+D:\Practice\ML\Test\TestML01\TestML03\bin\Debug\netcoreapp2.0\TestML03.deps.json
+D:\Practice\ML\Test\TestML01\TestML03\bin\Debug\netcoreapp2.0\TestML03.runtimeconfig.json
+D:\Practice\ML\Test\TestML01\TestML03\bin\Debug\netcoreapp2.0\TestML03.runtimeconfig.dev.json
+D:\Practice\ML\Test\TestML01\TestML03\bin\Debug\netcoreapp2.0\TestML03.dll
+D:\Practice\ML\Test\TestML01\TestML03\obj\Debug\netcoreapp2.0\TestML03.csprojAssemblyReference.cache
+D:\Practice\ML\Test\TestML01\TestML03\obj\Debug\netcoreapp2.0\TestML03.csproj.CoreCompileInputs.cache
+D:\Practice\ML\Test\TestML01\TestML03\obj\Debug\netcoreapp2.0\TestML03.AssemblyInfoInputs.cache
+D:\Practice\ML\Test\TestML01\TestML03\obj\Debug\netcoreapp2.0\TestML03.AssemblyInfo.cs
