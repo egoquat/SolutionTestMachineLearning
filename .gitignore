@@ -1,0 +1,11 @@
+
+*.lock
+.vs/TestML01/v15/Server/sqlite3/storage.ide
+.vs/TestML01/v15/Server/sqlite3/storage.ide-shm
+.vs/TestML01/v15/Server/sqlite3/storage.ide-shm
+TestML02/obj/TestML02.csproj.nuget.g.props
+*.cache
+TestML01/obj/project.assets.json
+TestML01/obj/TestML01.csproj.nuget.g.props
+.vs/TestML01/v15/.suo
+.vs/TestML01/v15/Server/sqlite3/storage.ide-wal

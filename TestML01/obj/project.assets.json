@@ -3829,11 +3829,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\ML\\Test\\TestML01\\TestML01\\TestML01.csproj",
+      "projectUniqueName": "D:\\Practice\\ML\\TestML\\SolutionTestMachineLearning\\TestML01\\TestML01.csproj",
       "projectName": "TestML01",
-      "projectPath": "D:\\Practice\\ML\\Test\\TestML01\\TestML01\\TestML01.csproj",
+      "projectPath": "D:\\Practice\\ML\\TestML\\SolutionTestMachineLearning\\TestML01\\TestML01.csproj",
       "packagesPath": "C:\\Users\\egohim\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\ML\\Test\\TestML01\\TestML01\\obj\\",
+      "outputPath": "D:\\Practice\\ML\\TestML\\SolutionTestMachineLearning\\TestML01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
