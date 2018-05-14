@@ -6,27 +6,27 @@ using Microsoft.ML.Runtime.Api;
 
 namespace TestML03
 {
-    class TaxiTripFarePrediction
-    {
-        float fare_amount;
-    }
-
     class TaxiTrip
     {
-        LearningPipeline Pipeline = new LearningPipeline
-        {
-            new TextLoader<TaxiTrip>(Program.DataPath, useHeader: true, separator: ","),
-            new ColumnCopier(("fare_amount", "Label")),
-            new CategoricalOneHotVectorizer("vendor_id",
-                                         "rate_code",
-                                         "payment_type"),
-            new ColumnConcatenator("Features",
-                                            "vendor_id",
-                                            "rate_code",
-                                            "passenger_count",
-                                            "trip_distance",
-                                            "payment_type"),
-            new FastTreeRegressor()
-        };
+        [Column(ordinal: "0")]
+        public string vendor_id;
+        [Column(ordinal: "1")]
+        public string rate_code;
+        [Column(ordinal: "2")]
+        public float passenger_count;
+        [Column(ordinal: "3")]
+        public float trip_time_in_secs;
+        [Column(ordinal: "4")]
+        public float trip_distance;
+        [Column(ordinal: "5")]
+        public string payment_type;
+        [Column(ordinal: "6")]
+        public float fare_amount;
+    }
+
+    class TaxiTripFarePrediction
+    {
+        [ColumnName("Score")]
+        public float fare_amount;
     }
 }

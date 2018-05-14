@@ -1,0 +1,17 @@
+# Number of terms = 2
+0	CMT
+1	VTS
+# Number of terms = 7
+0	1
+1	2
+2	3
+3	4
+4	5
+5	0
+6	6
+# Number of terms = 5
+0	CRD
+1	CSH
+2	NOC
+3	DIS
+4	UNK
